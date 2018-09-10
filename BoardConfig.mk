@@ -179,10 +179,6 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += \
-    $(DEVICE_PATH)/lineagehw
-
 # NFC
 BOARD_NFC_CHIPSET := pn553
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
