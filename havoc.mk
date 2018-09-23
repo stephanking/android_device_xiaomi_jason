@@ -21,15 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jason device
 $(call inherit-product, device/xiaomi/jason/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2018-07-01
 
-PRODUCT_NAME := lineage_jason
-PRODUCT_BRAND := Xiaomi
+## Device identifier. This must come after all inclusions
+PRODUCT_NAME := havoc_jason
 PRODUCT_DEVICE := jason
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Note 3
