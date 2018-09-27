@@ -1,4 +1,4 @@
-Copyright (C) 2017 - 2018 The LineageOS Project
+Copyright (C) 2017 - 2018 The LineageOSOS Project
 
 Device configuration for Xiaomi Mi Note 3
 =========================================
