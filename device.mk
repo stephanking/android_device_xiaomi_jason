@@ -414,7 +414,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_whyred
+    librecovery_updater_jason
 
 # RIL
 PRODUCT_PACKAGES += \

@@ -300,3 +300,6 @@
 
 # Kmsg device
 /dev/kmsg                                               0620   root       system
+
+# IR
+/dev/lirc0                 0660   system       system
